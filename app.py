@@ -1,3 +1,4 @@
-from flask import Flask
+from puppycompanyblog import app
 
-print("Hello")
+if __name__ == '__main__':
+    app.run(debug = True)
